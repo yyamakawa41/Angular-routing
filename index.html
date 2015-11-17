@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html ng-app = "countryApp">
+<head>
+	<title></title>
+	<link rel="stylesheet" href="">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
+	<script type="text/javascript" src="angularJS.js"></script>
+	<script type="text/javascript" src="controller.js"></script>
+</head>
+<body ng-controller = "countryCntrl">
+	
+	<li ng-repeat="country in countries">
+		{{country.name}}
+	</li>
+</body>
+</html>
